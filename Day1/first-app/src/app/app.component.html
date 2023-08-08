@@ -1,0 +1,5 @@
+<h2>This is from parent component</h2>
+<input value="name" [ngModel]="name" (ngModelChange)="onValueChange($event)" />
+<p>{{ name }}</p>
+<app-child [name]="name" (valueThis)="getData($event)"></app-child>
+<p>{{ nameFromChild }}</p>

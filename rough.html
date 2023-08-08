@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM & BOM</title>
+</head>
+<P id="demo"></P>
+<button onclick="myfunction()">Click Here</button>
+<body>
+    <script>
+        function myfunction()
+        {
+            let my="If you are admin press OK \n If you are not a admin press CANCEL"
+            if (confirm(my)==true)
+            {
+                my="You are a Admin"
+            }
+        else
+        {
+            my="You are a User"
+        }
+    document.getElementById("demo").innerHTML=my;    
+    }
+    </script>
+</body>
+</html>
