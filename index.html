@@ -2,19 +2,101 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
     <link rel="stylesheet" href="styleportfolio.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
 </head>
 <body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
     <nav class="navbar">
-        <section id="home">
-            <h1><a href="#">Home</a></h1>
-            <h1><a href="#">About me</a></h1>
-            <h1><a href="#">Portfolio</a></h1>
-            <h1><a href="#">Services</a></h1>
-            <h1><a href="#">Contact me</a></h1> 
-        </section>
+            <a href="#home"class="active">Home</a>
+            <a href="#about">About me</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact </a> 
     </nav>
+    </header>
+    <section class="home">
+        <div class="home-image">
+            <img src="images/computer.jpeg" alt="">
+        </div>
+         
+        <div class="home-content">
+            <h1>Hi, I'm KEERTHANA JAYAGOPI</h1>
+            <h3>Frontend Developer</h3>
+        <div class="home-sci">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-github"></i></a>
+        </div>
+       
+        <a href="https://drive.google.com/file/d/1FEXgeW0y4kAof5nojDPDNKYwv7FZ70m6/view?usp=drivesdk" class="btn">Download CV</a>
+        </div>
+    </section>
+    <section class="about">
+        <div class="main">
+            <img src="images/img.jpeg">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h5>Developer  <span>& Designer</span></h5>
+                <p>I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations. A responsive design makes your website accessible to all users, regardless of their device. </p>
+            <button type="button">Let's Talk </button>
+            </div>
+        </div>
+    </section>
+    <!-- service section start -->
+    <div class="service">
+        <div class="title">
+        <h2>Our Services</h2>
+        </div>  
+        <div class="box" >
+        <div class="card">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAaVJREFUSEu11U+ITlEYx/HPsJJ/Rdkyxp5mUpISs2Ch1Mz4NzFlp9hZ+LNHyBJLTUnMwoKlIVGKBfZTxqxHSopmMeipc+t0u/e97/uOe5f3nPP7Ps/vPL97B7T8DLSsr1/AIOa7Ka4fwA7M4T32NEH6AUxhGs9wtA3AfZzDVdxoA/AZO3EAr1cC2IoTuJWJrMUPrMI6/MIlPMZCFazuDkYxg004lQTifFT9Ch8xktYe4TuO42UZUgW4iJtYjac4jd/p4BVcx11cwBo8xBiWUzd3ckgOiM0Pki1/EGK5PXHuOY7gTBIutC7jWrLuCc4WRRWA8PQt9uInxvGiwtNv2IwhfCmtH062rsc77MPfAhB2xETEy7jECcyWBIqALWJLBfwQovqNqdj9OSD2ly2Ktm9nQp0C1mhRXlD5kiexhKqA9XTJOSQf05Op9U/YhWj9TdocI9zzmBagbTiWbCoCFmsbUsDyCYqgfe0laOW9B1OIoovhps9DXQ46nYsPW8z5PZxvA1AXsEZWt/+DD9hdE7COkG4BIbK9Ir3/rYNGoboNvXTQF+Qf5XVaGeSEFeMAAAAASUVORK5CYII="/>
+            <h5>Web Development</h5>
+            <div class="pra">
+                <p> Every website should be build with two primary goals: Firstly, it needs to work across all device. Secondly, it needs to be fast as possible.</p>
+                <p style="text-align: center;">
+                <a class="button" href="#">Read More</a>
+            </p>
+            </div>
+        </div> 
+        <div class="card">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAKNJREFUSEvt1r0JQjEUhuHnziAOIBau4SqioIWuoJuIrUso2rmDuIqSzp+rOcJNl1Ol+Mib85Jw0ihcTeH9fQOssUQ/cIA7zpjh+p5vAwzbggHQFtMIYIwjTkjrXP3Mt3VQAS9Kq6Kko96i3DurirKGulM0wgV7zJ+4nV3T4oBvsv7uYIBbXv1HYodJZOCkzAYr9AKgNDIPWERHZmDPeKT4r+IBXB5QGRpG2/cAAAAASUVORK5CYII="/>
+             <h5>Web Design</h5>
+             <div class="pra">
+                 <p> Every website should be build with two primary goals: Firstly, it needs to work across all device. Secondly, it needs to be fast as possible.</p>
+                 <p style="text-align: center;">
+                 <a class="button" href="#">Read More</a>
+             </p>
+             </div>
+         </div> 
+         <div class="card">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAHxJREFUSEvtlcEOgCAMQx8/ZvTgX5uoX6aJ8SBGRrOAeoArW7utrAQqn1AZH5VgBbpLMQswKMWpBNsDmJQrBQGNICvXpyMyX1gJkc3uXiWYgT6xTFaVcgdekEZwqOIdX+SmXpCmQTkN7os2AeO5eN47+cvM2m0qQPWi/xLsL40wGaOGZyIAAAAASUVORK5CYII="/>
+             <h5>Marketing</h5>
+             <div class="pra">
+                 <p> Every website should be build with two primary goals: Firstly, it needs to work across all device. Secondly, it needs to be fast as possible.</p>
+                 <p style="text-align: center;">
+                 <a class="button" href="#">Read More</a>
+             </p>
+             </div>
+         </div> 
+        </div>
+      </div>
+      <!-- contact me -->
+      <div class="contact-me">
+        <h2>Mail Id</h2>
+        <h5>jayagopikeerthana@gmail.com</h5>
+        <h2>Linkedin</h2>
+        <h5>https://www.linkedin.com/in/keerthana-j-b17215246</h5>
+        <h2>contact-9500780067</h2>
+        <p><h1>Let Me You A Beautiful Website.</h1></p>
+        <a class="buttton-two" href="#">Hire Me</a>
+
+      </div>
 </body>
 </html>
